@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+nav{
+    
+    font: 1.2em "HelveticaNowMTTextRegular", Helvetica, Arial, sans-serif;
+    display: flex;
+    height: 60px;
+    padding: 20px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+
+    
+}
+.active{
+    box-shadow: 0 4px 6px -1px gray;
+    backdrop-filter: blur(8px);
+    transition: all .5s ease;
+    background-color: #3989fa;
+}
+.navlogo{
+    filter: brightness(0) invert(1);
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.menu a{
+    color: rgba(10, 10, 10, 0.651);
+    text-decoration: none;
+}
+.logo img {
+    width: 150px;
+}
+.menu{
+   display: flex;
+    gap: 20px;
+}
+.buttons{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.textcolor a{
+    color: white;
+}

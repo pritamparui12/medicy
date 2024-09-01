@@ -1,0 +1,111 @@
+.footer-frame{
+    width: 100%;
+    position: relative;
+    background-color: #0d3576;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 1.938rem 0 1.875rem;
+    letter-spacing: normal;
+    align-self: stretch;
+    
+}
+.frame-important-text{
+    position: relative;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #0060fe, #0d3576);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: .75rem 4.188rem 1.125rem 5.313rem;
+    gap: 1rem 0;
+    min-height: 20.625rem;
+    flex-shrink: 0;
+    text-align: left;
+    color: white;
+    font-family: sans-serif;
+    top: -26px;
+align-self: stretch;
+}
+.support-frame{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 0 0 .25rem;
+    font-size: .983rem;
+    align-self: stretch;
+}
+.frame-important-text, .support-frame{
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.social-box{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-contact-box{
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    border-radius: 50% !important;
+    
+}
+.icon-bx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.75rem;
+    width: 3.75rem;
+    position: relative;
+    border-radius: 8px;
+    background-color: #deb4b133;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.contact ,.location{
+    display: flex;
+    border-radius: var(--br-5xs);
+    overflow: hidden;
+    align-items: center;
+    padding: var(--padding-xs) var(--padding-smi) var(--padding-5xs);
+    box-sizing: border-box;
+    gap:  .938rem;
+    min-width: 12.438rem;
+    margin-bottom: 15px;
+}
+.contact p{
+    color: #faf6f6;
+    font-weight: 700;
+}
+.footer-list-item-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    gap: .875rem 0;
+
+}
+.footer-list-item{
+    color: white;
+    text-decoration: none;
+    align-self: stretch;
+    position: relative;
+    line-height: 1.25rem;
+    font-weight: 600;
+    transition: padding-left .5s ease;
+
+}
+.framework-about-us{
+    flex: 1;
+    flex-direction: row;
+    gap: 0 2.5rem;
+    padding: .068rem;
+}
+.copyright-text{
+    color: #0ff;
+}
+    

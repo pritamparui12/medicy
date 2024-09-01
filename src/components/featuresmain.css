@@ -1,0 +1,71 @@
+.mainhead{
+    margin: 20px 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    
+}
+.featureHead{
+    height: 20%;
+    margin: 50px 0 30px;
+    text-align: center;
+    color: #0060FE;
+    
+}
+.featureHead h1{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: calc(1.375rem + 1.5vw);
+    
+}
+.maincontent{
+    width: 50%;
+    margin: 0;
+    padding: 60px 40px;
+    text-align: left;
+    box-shadow: #a9a9df40 0 50px 100px -20px, #e7dede4d 0 30px 60px -30px;
+    border-radius: 16px;
+}
+.maincontent h1 ,h3{
+    font-size: calc(1.3rem + .6vw);
+    
+}
+.card-text{
+    font-size: .938rem;
+    margin-left: 0;
+    
+
+}
+.card-title{
+    color: #0060FE;
+    
+}
+.card-text p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+}
+.main-card{
+    margin: 55px 65px;
+}
+.keycard-img{
+    width: 35%;
+}
+.keycard-img img{
+    width: 100%;
+    filter: drop-shadow(-2px 20px 14px rgb(181, 196, 238));
+}
+.maincontent ul{
+    list-style-image: url("../assets/download.svg");
+
+}
+.keycontent li{
+    margin-bottom: 8px;
+    font-weight: 600;
+    font: 1em sans-serif;
+    
+}
+.featuresmain{
+    margin-bottom: 10%;
+}
+
