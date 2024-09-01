@@ -60,8 +60,8 @@
 
 }
 .keycontent li{
-    margin-bottom: 8px;
-    font-weight: 600;
+    
+    font-weight: bold;
     font: 1em sans-serif;
     
 }
@@ -69,3 +69,11 @@
     margin-bottom: 10%;
 }
 
+.keylist{
+    display: flex;
+    
+}
+.text-start{
+    display: flex;
+    flex-direction: column;
+}

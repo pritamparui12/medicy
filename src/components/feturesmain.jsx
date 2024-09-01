@@ -29,11 +29,14 @@ const Featuresmain = () => {
                                         <li>Low Stock, Overstock Expiry Reporting</li>
                                         <li>Sales &amp; Purchase, Returns Management</li>
                                     </ul>
+                                    <div>
                                     <ul className="text-start">
                                         <li>Sales &amp; Purchase Report</li>
                                         <li>Customer Payment Management</li>
                                         <li>Supplier and Payment Management</li>
                                     </ul>
+                                    </div>
+                                    
                                 </div>
                             </div>
                             <div className="keycard-img" >
