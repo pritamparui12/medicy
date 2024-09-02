@@ -39,9 +39,12 @@ ul{
 }
 
 .menu a{
+    padding-bottom: 5px;
     color: rgba(10, 10, 10, 0.651);
     text-decoration: none;
+   
 }
+
 .logo img {
     width: 150px;
 }
@@ -56,4 +59,9 @@ ul{
 }
 .textcolor a{
     color: white;
+}
+.menu li a:hover{
+    border-bottom:2px solid black ;
+    
+   
 }

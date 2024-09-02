@@ -5,10 +5,10 @@ import Featuresmain from './components/feturesmain'
 import CatalogBanner from './components/catalog-banner'
 import Footer from './components/footer'
 import SubBanner from './components/banner2'
-import {Slider } from './carosal'
 import Faq from './components/faq'
 import Hero from './hero'
 import Features from './components/features'
+import ImageSlider from './components/imgslider'
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Header/>
-      <Slider/>
+      <ImageSlider/>
       <Featuresmain/>
       <Hero/>
       <CatalogBanner/>

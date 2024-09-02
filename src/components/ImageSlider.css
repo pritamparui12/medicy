@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;}/* ImageSlider.css */
+
+/* Slider container */
+.image-slider img {
+  
+  height: 70vh;
+}
+.image-slider{
+    width: 1600px;
+}
+
+/* Individual slide */
+.slide {
+  margin: 5%;
+  height: 300px; /* Set your desired slide height */
+  background-color: #fffdfd;
+  transition: transform 0.3s ease; /* Add a smooth sliding transition */
+}
+
+/* Active slide */
+.slide.active {
+  transform: translateX(0); /* Slide to the visible position */
+}
+
+/* Previous and Next buttons */
+button {
+  background-color: #0074d9;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0 10px ;
+}
+
+/* Image within the slide */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Heading and text within the slide */
+
+.imgs img{
+    width: 200px;
+    height: 50px;
+}
+
+.imgs img{
+    display: flex;
+    gap: 30px;
+}
+p {
+  font: 1.2em sans-serif;
+  color: #0d0d0db5;
+  line-height: 24px;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+}
+.headings{
+    width: 700px;
+    
+}
+.paragraph{
+    margin-top: 10px;
+    margin-bottom: 10%;
+   
+}
+.headings h2{
+font: 3em sans-serif;
+font-weight: 550;
+color: #000000e2;
+
+}
+
+.innerbox2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.image-slider .controls{
+
+    margin-top: 10%;
+    margin-left: 42%;
+
+}
+.control{
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
+}
+.control img{
+    width: 100px;
+    height: 100px;
+}
+.innerbox1{
+    margin-right: 10%;
+}
