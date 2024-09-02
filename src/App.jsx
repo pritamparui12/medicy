@@ -6,7 +6,7 @@ import CatalogBanner from './components/catalog-banner'
 import Footer from './components/footer'
 import SubBanner from './components/banner2'
 import Faq from './components/faq'
-import Hero from './hero'
+import Hero from './components/hero'
 import Features from './components/features'
 import ImageSlider from './components/imgslider'
 
