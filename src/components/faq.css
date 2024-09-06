@@ -11,8 +11,12 @@
     margin-bottom: 7%;
 }
 .accortions{
+    color:#212529;
+    background-color: #fff;
+        ;
     margin-left: 20%;
     width: 60vw;
+    transition: .15s ease-in-out, .15s ease-in-out, .15s ease-in-out, .15s ease-in-out, .15s ease;
    
 }
 .item{
@@ -30,17 +34,22 @@
     font-weight: 500;
     font-size: 1.1rem;
 }
-.content {
-    max-height: 0;
-    overflow: hidden;
-    transition: all 0.3s cubic-bezier(0,1,0,1)
+
+.content:not(.content-show){
+    display: none;
 }
 .content-show{
     height: auto;
-    max-height: 9999px;
-    transition: all 0.3s cubic-bezier(0,1,0,1);
+    overflow: visible;
+    transition: height .35s ease;
+   
 
-
+}
+.colapsing{
+   height: 0;
+    overflow: hidden;
+    transition: height .35s ease;
+    
 }
 .titlehead h2{
     font-weight: 600;

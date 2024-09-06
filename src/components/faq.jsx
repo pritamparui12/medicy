@@ -28,7 +28,7 @@ const Faq = () => {
                                     <div className={toggle===index ? 'titlehead': 'title'} onClick={()=>handleToggle(index)}>
                                         <h2>{data.question}</h2>
                                     </div>
-                                    <div className={toggle=== index ? 'content-show': 'content'}>
+                                    <div className={toggle=== index ? ' content-show': 'colapsing content'}>
                                         <p>{data.answer}</p>
                                     </div>
 

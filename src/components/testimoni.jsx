@@ -64,11 +64,14 @@ const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
 const Testimonial = () => {
     return (
         <>
+        <div class="text-center pharmaciesTag">
+            <h1>What Our Client Says</h1>
+            </div>
             <div className="cards">
                 <Carousel infinite={true}
-                 arrows={false}
-                 customButtonGroup={<ButtonGroup/>}
+                 arrows={true}
                  responsive={responsive}
+
                 >
 
 
