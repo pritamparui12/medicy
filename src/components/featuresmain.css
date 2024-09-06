@@ -1,8 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .mainhead{
     margin: 20px 80px;
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
+    font-family: "HelveticaNowMTTextRegular", Helvetica, Arial, sans-serif;
     
 }
 .featureHead{
@@ -12,11 +18,17 @@
     color: #0060FE;
     
 }
+
 .featureHead h1{
-    font-family: sans-serif;
-    font-weight: 800;
+    font-family: 'poppin';
+   
     font-size: calc(1.375rem + 1.5vw);
     
+}
+.sec-h2{
+    font-family: Poppins;
+    font-weight: 700;
+
 }
 .maincontent{
     width: 50%;
@@ -34,10 +46,19 @@
     font-size: .938rem;
     margin-left: 0;
     
+    
 
+}
+.card-text p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    
 }
 .card-title{
     color: #0060FE;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     
 }
 .card-text p{
@@ -60,10 +81,8 @@
 
 }
 .keycontent li{
-    
-    font-weight: bold;
-    font: 1em sans-serif;
-    
+font-weight: 600;
+margin-bottom: 8px;
 }
 .featuresmain{
     margin-top: 5%;

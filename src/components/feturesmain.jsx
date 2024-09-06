@@ -13,7 +13,7 @@ const Featuresmain = () => {
                 <div className="featuresmain container-fluid">
                     <div className="mainhead">
                         <div className="featureHead">
-                            <h2 className="h1 ">
+                            <h2 className="sec-h2 ">
                                 Key Features Of Medicy</h2>
                         </div>
                         <p>Here are the key features of our healthcare management software that can help you optimise the workflow and enhance patient experience.</p>

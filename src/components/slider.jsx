@@ -2,7 +2,7 @@ import React from 'react';
 
 const Slide = ({ content }) => {
   return (
-    <div className="slide">
+    <div className="slide ">
       {content.map((element, index) => (
         <div key={index}>{element}</div>
       ))}

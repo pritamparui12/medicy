@@ -9,15 +9,14 @@
 nav{
     
     font: 1.2em "HelveticaNowMTTextRegular", Helvetica, Arial, sans-serif;
-    display: flex;
-    height: 60px;
-    padding: 20px;
-    justify-content: space-between;
-    position: sticky;
+    position: fixed;
+    height: 57px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     top: 0;
-    z-index: 999;
-
-
+    left: 0;
+    right: 0;
+    z-index: 1030;
     
 }
 .active{
@@ -30,33 +29,34 @@ nav{
     filter: brightness(0) invert(1);
 }
 
-ul{
+
+.li{
     display: flex;
-    gap: 30px;
-    justify-content: center;
-    list-style: none;
-    
+    align-self: center;
+    font-family: "HelveticaNowMTTextRegular", Helvetica, Arial, sans-serif;
+    margin-left: 8px;
+    font-size: 18px;
+    align-self: center;
 }
 
 .menu a{
-    padding-bottom: 5px;
+    padding: 8px;
     color: rgba(10, 10, 10, 0.651);
     text-decoration: none;
    
 }
+.logoa{
+    margin-left: 20px;
+}
+.logoa img{
+    width: 48%;
+    vertical-align: middle;
+}
 
-.logo img {
-    width: 150px;
+.libtn{
+    margin-left: 2rem;
 }
-.menu{
-   display: flex;
-    gap: 20px;
-}
-.buttons{
-    display: flex;
-    gap: 30px;
-    align-items: center;
-}
+
 .textcolor a{
     color: white;
 }

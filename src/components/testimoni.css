@@ -1,0 +1,41 @@
+.testimonial-img img{
+    width: 60px;
+    margin-top: -12%;
+    margin-left: -90%;
+
+}
+.contentdiv{
+    width: 557px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    box-shadow: #57636b4d 0 1px 2px, #17191a26 0 2px 6px 2px;
+    border-radius: 16px;
+}
+.author p{
+    margin-left: 70%;
+}
+.author{
+    font-weight: 100;
+}
+.review{
+    font-weight: 500;
+    
+}
+.cards{
+   margin: 10.5%;
+    margin-top: 20px;
+}
+.carousel-button-group{
+    display: flex;
+    position: absolute;
+}
+.crossarrow{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    width: 2.5rem;
+    transform: translateY(-50%);
+    background-color: #bec9ed7f;
+}

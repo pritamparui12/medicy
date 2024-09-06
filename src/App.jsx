@@ -9,6 +9,7 @@ import Faq from './components/faq'
 import Hero from './components/hero'
 import Features from './components/features'
 import ImageSlider from './components/imgslider'
+import Testimonial from './components/testimoni'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <CatalogBanner/>
       <Features/>
       <SubBanner/>
+      <Testimonial/>
       <Faq/>
       <Footer/>
       </>
