@@ -7,7 +7,7 @@
 .borderCircle{
     width: 34rem;
     height: 40rem; 
-    margin-left: -24.5rem;
+    margin-left: -23.2rem;
     border: none; 
     border-right: 3px solid #CCCDF1; 
     border-top-right-radius: 50%; 
@@ -32,12 +32,49 @@
 .borderCircleright{
     width: 34rem;
     height: 40rem; 
-    margin-left: 2rem;
+    margin-left: -3rem;
     border: none; 
     border-left: 3px solid #CCCDF1; 
     border-top-left-radius: 50%; 
     border-bottom-left-radius: 50%;
 }
-.lol{
-    margin-left: -5%;
+
+.rounded-circle{
+
+}
+.circleIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background-color: #7C80E0;    ;
+    box-shadow: #b5c4ee 0 5px 15px;
+    border: 3px solid #fff;
+    position: relative;
+}
+.icon-right{
+    margin-left: -55px;
+    margin-right: 3rem;
+    margin-bottom: -2rem;
+
+}
+.be-always-connected{
+
+    margin: 0 50px;
+    padding: 0 45px 0 30px;
+    font-size: .938rem;
+    
+}
+.gap{
+    margin-left: 11%;
+    margin-bottom: 15px;
+}
+.righticon{
+    margin-right: -60px;
+    margin-left: 4rem;
+    
+}
+.gapright{
+    margin-left: -10px;
 }

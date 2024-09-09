@@ -1,55 +1,5 @@
 import React, { useState } from "react";
 import './faq.css'
-
-const Faq = () => {
-    const [toggle,settoggle]= useState(null)
-
-    const handleToggle=(i)=>{
-        if (toggle===i){
-             return settoggle(null)
-        }
-        
-        settoggle(i)
-        
-    }
-
-    return (
-        <>
-            <div className="wrapper">
-                <div className="heading">
-                    <h1>FAQs</h1>
-                    <p>Frequently Asked Questions</p>
-                    </div>
-                {
-                    faqData.map((data, index) => {
-                        return (
-                            <div className='accortions' key={index}>
-                                <div className="item">
-                                    <div className={toggle===index ? 'titlehead': 'title'} onClick={()=>handleToggle(index)}>
-                                        <h2>{data.question}</h2>
-                                    </div>
-                                    <div className={toggle=== index ? ' content-show': 'colapsing content'}>
-                                        <p>{data.answer}</p>
-                                    </div>
-
-
-                                </div>
-
-                            </div>
-                        )
-                    })
-
-                }
-            </div>
-
-
-        </>
-
-    )
-}
-
-export default Faq;
-
 const faqData = [
 
     {
@@ -76,7 +26,7 @@ const faqData = [
         answer: 'The experts in Medicy focus highly on the data safety and security of pharmacies and diagnostic centres. It offers advanced encryption and reliable backup measures for distributor data, stock and payment data, and patients’ confidential information.'
 
     },
-   
+
     {
         question: 'What are the pricing options of Medicy Software?',
         answer: 'Medicy offers affordable pricing for its software solution. You can also get discounts on seasonal offers. To know more about the pricing visit the pricing page.'
@@ -84,3 +34,49 @@ const faqData = [
 
     },
 ]
+
+const Faq = () => {
+
+    return (
+        <>
+            <div class="text-center faq-heading"><h2 class="h1">FAQs</h2></div>
+            <p class="d-flex justify-content-center align-items-center faq-text">Frequently Asked Questions</p>
+            <div className="main-accordino">
+                <div className="wrapper">
+                    {
+                        faqData.map((item, index) => {
+                            return (
+                                <div key={index} className="accordion accordion-flush" id="accordionFlushExample">
+                                    <div className="accordion-item border border-2 mb-2 rounded accordion-item" >
+                                        <h2 className="accordion-header" id={`heading${index + 1}`}>
+                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${index + 1}`} aria-expanded="false" aria-controls={`collapse${index + 1}`}>
+                                                {item.question}
+                                            </button>
+                                        </h2>
+                                        <div id={`collapse${index + 1}`} className="accordion-collapse collapse" aria-labelledby={`heading${index + 1}`} data-bs-parent="#accordionFlushExample">
+                                            <div className="accordion-body">
+                                                {item.answer}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            )
+                        })
+
+
+                    }
+                </div>
+
+            </div>
+
+
+
+
+
+        </>
+
+    )
+}
+
+export default Faq;
+

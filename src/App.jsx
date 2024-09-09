@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <Header/>
+       <Header/>
       <ImageSlider/>
       <Featuresmain/>
       <Hero/>
@@ -27,6 +27,7 @@ function App() {
       <Testimonial/>
       <Faq/>
       <Footer/>
+     
       </>
   )
 }
